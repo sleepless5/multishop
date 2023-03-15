@@ -1,0 +1,34 @@
+
+.products {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container h2 {
+  text-align: center;
+  margin: 2rem auto;
+}
+.product_row {
+  display: grid;
+  grid-template-columns: 20% 30% repeat(3, 15%);
+  
+ border-bottom: 1px solid var(--dark-green);
+ padding-bottom: 0.2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.product_img {
+  width: 80px;
+  object-fit: contain;
+  
+}
+
+.delete_icon i {
+color: var(--light-red);
+cursor: pointer;
+}
+
+.delete_icon i:hover {
+  color: red;
+}

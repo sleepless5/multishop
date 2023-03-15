@@ -1,0 +1,45 @@
+.container h2 {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 600px;
+display: flex;
+flex-direction: column;
+margin-bottom: 5rem;
+}
+
+.form * {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid var(--dark-green);
+  font-size: 1rem;
+  outline:none;
+}
+
+.form button {
+  background-color: var(--green);
+  color: white;
+  width: 50%;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: .3s ease;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+.form button:disabled {
+  opacity: 0.4;
+}
+
+.form textarea {
+  border: 1px solid var(--dark-green);
+  height: 5rem;
+}

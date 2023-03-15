@@ -1,0 +1,47 @@
+.container {
+  
+}
+.slaida {
+  z-index:100;
+}
+.slider {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 2rem 4rem;
+
+  /* height: 350px; */
+  background-color: white;
+  margin: 0 auto;
+
+
+
+}
+.slider_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.left {
+  width: 50%;
+  margin-right: 4rem;
+ 
+}
+
+.right {
+  width: 50%;
+}
+.left h2 {
+  margin-bottom: 1rem;
+}
+.left p {
+  line-height: 1.8rem;
+}
+
+.right img {
+
+  height: 300px;
+  object-fit: contain;
+
+}

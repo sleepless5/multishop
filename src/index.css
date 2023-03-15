@@ -1,13 +1,110 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+
+:root {
+  --red: #db3a34;
+  --light-red: #d89a98;
+  --light-green: #a1f4dc;
+  --dark-green: #084C61;
+  --green: #356675;
+  --yellow: #FFC857;
+  --dark-grey: #323031;
+  --grey: #C3C1C2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main_container {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+section {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+.show {
+  display: block !important;
+}
+.buy_btn {
+  background-color: var(--red);
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  cursor:pointer;
+  color:white;
+  border: 4px solid transparent;
+    transition: .5s;
+
+}
+
+.buy_btn:hover {
+  border: 4px solid white;
+}
+
+.buy_btn_2 {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: var(--red);
+    border: 4px solid transparent;
+    transition: .5s;
+
+}
+
+.buy_btn_2:hover {
+  border: 4px solid var(--red);
+}
+
+.bold {
+  font-weight: 800;
+  margin-bottom: 2rem !important;
+  border-bottom: none !important;
+}
+/* .slick-slider {
+
+
+  z-index: 0;
+  position: relative;
+  background-color: white;
+} */

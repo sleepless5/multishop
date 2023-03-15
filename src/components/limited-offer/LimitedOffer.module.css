@@ -1,0 +1,56 @@
+
+.main_container {
+background-color: var(--light-green);
+}
+.container {
+  display: flex;
+  gap: 7rem;
+  align-items: center;
+max-width: 60%;
+padding: 2rem;
+margin: auto;
+
+}
+
+.time_container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+
+
+}
+
+.right img {
+  width: 300px;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.colon {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+ .left h2 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.left h1 {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width:1000px) {
+  .container {
+    max-width: 90%;
+    gap: 3rem;
+  }
+  .time_container {
+    gap: 2rem;
+  }
+  .right img {
+    width: 200px;
+  }
+}

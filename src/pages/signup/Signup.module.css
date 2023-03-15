@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 600px;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.form input {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--dark-green);
+  outline: none;
+  font-size: 1rem;
+  
+
+}
+
+.form button {
+  display: block;
+  padding: 10px 15px;
+  width: 40%;
+  margin: 0 auto;
+  background-color: var(--dark-green);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.form input[type='file'] {
+  border: none;
+  display:none;
+}
+
+.form button:hover {
+  opacity: 0.9;
+}
+
+.container p {
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+.container a {
+  font-weight: 600;
+  color: var(--dark-green);
+  text-decoration: underline;
+}
+
+.profile_box {
+  text-align-last: left;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 1rem;
+  
+}
+
+.profile_box:hover {
+  border: 1px solid var(--red);
+}
+.profile_box i {
+  color: var(--red);
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}

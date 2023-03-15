@@ -1,0 +1,39 @@
+.filter_box{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.widget select {
+  padding: 10px 15px;
+  background-color: var(--dark-green);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 1px;
+  outline:none;
+}
+
+.widget option {
+ margin-bottom: 2rem;
+ display: block;
+ padding-bottom: 1rem;
+ 
+}
+
+.input_box {
+  width: 30%;
+}
+
+.input_box input {
+  width: 100%;
+  padding: 10px 15px;
+    border-radius: 5px;
+    border:1px solid var(--dark-green);
+    outline:none;
+} 
+
+
+

@@ -1,0 +1,145 @@
+
+.header_shrink {
+  position: sticky;
+  top: 0;
+  left:0;
+    box-shadow: 5px 5px 5px -5px #fde4e4;
+      background-color: white;
+      z-index: 100;
+      border-bottom: 1px solid var(--yellow);
+}
+
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.logo_container h1{
+  color: var(--red);
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav ul li {
+  font-weight: 600;
+
+ 
+}
+
+.icons_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icons_container i {
+  font-size: 1.3rem;
+  cursor:pointer;
+}
+
+.active_menu {
+  color: var(--red);
+}
+
+.cart {
+  position: relative;
+}
+
+.cart_items {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  right:-5px;
+  top: -5px;
+  background-color: var(--red);
+  border-radius: 50%;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0;
+  padding: 0; */
+  color:white;
+}
+
+.close_btn {display:none}
+
+.mobile_menu {
+  display: none;
+}
+.user_box {
+  position: relative;
+  z-index: 99999;
+}
+
+.user_menu {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+background:white;
+font-weight: 600;
+  top: 110%;
+  left: -4rem;
+  text-align: center;
+  width: 150px;
+
+  padding: 1rem;
+}
+.user_menu li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.user_avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+  .navigation {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+      z-index: 99;
+      display:none;
+
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+ 
+  }
+
+  .close_btn {
+    display:block;
+    border:none;
+    margin-left: auto;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    cursor:pointer;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+}
+

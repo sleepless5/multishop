@@ -1,0 +1,54 @@
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: scale(110%);
+}
+
+.container h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.container img {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.info_box {
+  padding: 0 2rem;
+}
+
+.category {
+  margin-bottom: 2rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.bottom span i {
+  color: var(--light-red);
+  font-size: 1.5rem;
+  cursor:pointer;
+  font-weight: 600;
+
+}
+
+.bottom span i:hover {
+  color: var(--red);
+}
