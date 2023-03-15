@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/multishop/static/css/main.56ee8b36.css",
+    "main.css": "/multishop/static/css/main.db0a51da.css",
     "main.js": "/multishop/static/js/main.15b9953d.js",
     "static/media/single-sofa-01.jpg": "/multishop/static/media/single-sofa-01.db24b9feed7582c4e98d.jpg",
     "static/media/arm-chair-03.jpg": "/multishop/static/media/arm-chair-03.3249f382638c86196acd.jpg",
@@ -36,11 +36,11 @@
     "static/media/slick.ttf": "/multishop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/multishop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/multishop/index.html",
-    "main.56ee8b36.css.map": "/multishop/static/css/main.56ee8b36.css.map",
+    "main.db0a51da.css.map": "/multishop/static/css/main.db0a51da.css.map",
     "main.15b9953d.js.map": "/multishop/static/js/main.15b9953d.js.map"
   },
   "entrypoints": [
-    "static/css/main.56ee8b36.css",
+    "static/css/main.db0a51da.css",
     "static/js/main.15b9953d.js"
   ]
 }
